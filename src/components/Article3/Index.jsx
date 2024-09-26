@@ -4,7 +4,7 @@ import { StyledArticle } from "./Article.styled";
 function Article3() {
   return (
     <StyledArticle>
-      <p>Maintaon a consisten posting schedule.</p>
+      <p>Maintain a consistent posting schedule.</p>
       
     </StyledArticle>
   );

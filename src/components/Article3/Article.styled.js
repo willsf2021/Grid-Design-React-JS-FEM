@@ -3,8 +3,7 @@ import { theme } from "../../../theme";
 import consistentSchedulePicture from "../../assets/images/illustration-consistent-schedule.webp";
 
 export const StyledArticle = styled.article`
-  height: 224px;
-  height: 224px;
+  min-height: 224px;
   background-color: ${theme.colors.yellow500};
   background-image: url(${consistentSchedulePicture});
   background-position: bottom -24px left 16px;
@@ -13,6 +12,10 @@ export const StyledArticle = styled.article`
   border-radius: 10px;
   padding: 0px 16px;
   position: relative;
+  grid-area: item6;
+
+
+
 
   p {
     padding-top: 16px;

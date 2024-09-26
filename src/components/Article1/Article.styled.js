@@ -10,6 +10,7 @@ export const StyledArticle = styled.article`
   row-gap: 8px;
   border-radius: 10px;
   padding: 40px;
+  grid-area: item2;
 
   img {
     width: 64%;

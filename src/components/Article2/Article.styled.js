@@ -9,6 +9,8 @@ export const StyledArticle = styled.article`
     align-items: center;
     justify-content: center;
     row-gap: 16px;
+    grid-area: item5;
+
 
     img {
         width: 100%;

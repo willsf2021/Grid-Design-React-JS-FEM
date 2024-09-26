@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { theme } from "../theme";
 
 export const GlobalStyles = createGlobalStyle`
   * {
@@ -8,8 +9,10 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    width: 375px
-  }
+    background-color: ${theme.colors.offWhite};
+    }
 
-  
-`;
+    @media (min-width: 768px) {
+      padding: 80px 120px;
+    }
+    `;

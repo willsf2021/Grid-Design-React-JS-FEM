@@ -9,6 +9,14 @@ export const StyledArticle = styled.article`
   flex-direction: column;
   justify-content: center;
   row-gap: 16px;
+  grid-area: item3;
+
+  @media (min-width: 768px) {
+  img {
+    max-width:240px;
+  }
+ }
+
 `;
 export const P1 = styled.p`
   text-align: center;
