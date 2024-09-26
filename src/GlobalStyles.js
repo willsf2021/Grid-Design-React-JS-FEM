@@ -9,7 +9,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   body {
+  width: 100vw;
     background-color: ${theme.colors.offWhite};
+    
     }
 
     @media (min-width: 768px) {

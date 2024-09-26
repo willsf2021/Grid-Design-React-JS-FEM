@@ -8,6 +8,10 @@ export const StyledApp = styled.main`
   display: flex;
   flex-direction: column;
   row-gap: 32px;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    align-items: center;
+  }
 
   @media (min-width: 768px) {
   margin: auto;
@@ -19,5 +23,6 @@ export const StyledApp = styled.main`
       "item1 item5 item6 item3"
       "item4 item5 item6 item3"
       "item4 item7 item8 item8";
+      grid-template-rows: 1fr repeat(2, 0.3fr) 0.5fr;
   }
 `;

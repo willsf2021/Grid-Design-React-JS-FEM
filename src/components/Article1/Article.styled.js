@@ -10,16 +10,25 @@ export const StyledArticle = styled.article`
   row-gap: 8px;
   border-radius: 10px;
   padding: 40px;
+  max-width:375px;
   grid-area: item2;
+
+  @media (min-width:768px){
+    max-width:max-content;
+  }
 
   img {
     width: 64%;
     margin-top: 16px;
+    @media (min-width:768px){
+    width: 224px;
+    }
   }
 
   p {
     font-size: 18px;
     color: white;
+    text-align: center;
   }
 `;
 
